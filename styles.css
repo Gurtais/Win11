@@ -1,0 +1,78 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles pour le body */
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Conteneur du logo Microsoft */
+.logo-container {
+    margin-bottom: 30px; /* Ajoute un espace entre le logo et la section principale */
+}
+
+.microsoft-logo {
+    width: 150px; /* Ajuste la taille du logo */
+    height: auto;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+header p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/* Bouton de téléchargement */
+.download-btn {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #005a8d;
+}
+
+.download-btn:active {
+    background-color: #004369;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 20px;
+}
